@@ -240,8 +240,6 @@ begin
 end;
 }
 
-{$ifndef CASTLE_TESTER}
 initialization
   RegisterTest(TTestRectangles);
-{$endif}
 end.
